@@ -1,0 +1,35 @@
+.pub-img {
+    width: 15%;
+}
+.left-menu li{
+    list-style-type: none;
+}
+.main-layout {
+    display:flex ;
+}
+.main-header {
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-img {
+    width: 667px;
+}
+.main-menu ul {
+    display: flex;
+    list-style-type: none;
+}
+.main-menu ul li {
+    padding: 20px; /* pour la hauteur générale */
+    padding-left: 50px; /* pour la marge à gauche */
+    padding-right: 50px; /* pour la marge à droite */
+}
+.test {
+    display:flex;
+    flex-direction: column;
+}
+.sub-menu {
+    display:flex;
+    flex-direction: column;
+}
