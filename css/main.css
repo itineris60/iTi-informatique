@@ -5,7 +5,8 @@ body {
   margin: 0;
 }
 
-a, .link {
+a,
+.link {
   text-decoration: none;
   font-weight: 600;
   color: #5b238f;
@@ -28,23 +29,32 @@ a, .link {
 }
 .main-layout {
   display: flex;
-  padding-top:180px;
+  padding-top: 180px;
 }
 .left-menu {
+  margin-top: 12rem;
+  min-width: 25%;
   width: 25%; /* ou 100px */
- /* position: fixed; */
+  /* position: fixed; */
 }
 .left-menu li {
   list-style-type: none;
   width: 100%;
+  margin-bottom: 3rem;
+}
+@media screen and (max-width: 919px) {
+  .left-menu {
+    display: none;
+    min-width: 0;
+    max-width: 0;
+  }
 }
 .main-content {
   flex-grow: 1;
   margin: 2rem;
-/*  padding-left: 25%; */
+  /*  padding-left: 25%; */
 }
-#iframeee
-{
-text-align:center;
- 
+#iframeee {
+  text-align: center;
 }
+
