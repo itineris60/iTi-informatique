@@ -1,35 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
+
+body {
+  font-family: "Comfortaa", "Helvetica Neue", sans-serif;
+  margin: 0;
+}
+
+a, .link {
+  text-decoration: none;
+  font-weight: 600;
+  color: #5b238f;
+}
 .pub-img {
-    width: 15%;
+  width: 100%;
 }
-.left-menu li{
-    list-style-type: none;
-}
-.main-layout {
-    display:flex ;
-}
+
 .main-header {
-    display:flex ;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
 }
 .logo-img {
-    width: 667px;
+  width: 667px;
 }
-.main-menu ul {
-    display: flex;
-    list-style-type: none;
+.main-layout {
+  display: flex;
+  padding-top:180px;
 }
-.main-menu ul li {
-    padding: 20px; /* pour la hauteur générale */
-    padding-left: 50px; /* pour la marge à gauche */
-    padding-right: 50px; /* pour la marge à droite */
+.left-menu {
+  width: 25%; /* ou 100px */
+ /* position: fixed; */
 }
-.test {
-    display:flex;
-    flex-direction: column;
+.left-menu li {
+  list-style-type: none;
+  width: 100%;
 }
-.sub-menu {
-    display:flex;
-    flex-direction: column;
+.main-content {
+  flex-grow: 1;
+  margin: 2rem;
+/*  padding-left: 25%; */
+}
+#iframeee
+{
+text-align:center;
+ 
 }
