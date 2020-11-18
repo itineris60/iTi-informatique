@@ -52,6 +52,7 @@ a,
 .main-content {
   flex-grow: 1;
   margin: 2rem;
+  margin-right: 4rem;
   /*  padding-left: 25%; */
 }
 #iframeee {
