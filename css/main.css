@@ -32,10 +32,10 @@ a,
   padding-top: 180px;
 }
 .left-menu {
-  margin-top: 12rem;
-  min-width: 25%;
-  width: 25%; /* ou 100px */
-  /* position: fixed; */
+  margin-top: 0rem;
+  min-width: 15%;
+  width: 15%; /* ou 100px */
+  position: fixed;
 }
 .left-menu li {
   list-style-type: none;
@@ -53,6 +53,7 @@ a,
   flex-grow: 1;
   margin: 2rem;
   margin-right: 4rem;
+  margin-left: 15%;
   /*  padding-left: 25%; */
 }
 #iframeee {

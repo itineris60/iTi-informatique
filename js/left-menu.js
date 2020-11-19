@@ -4,9 +4,8 @@ function buildLeftMenu() {
     return;
   }
   aside.innerHTML = ` <ul>
-    <li><img class="pub-img" src="/img/pub-page1.png" /></li>
-    <li><img class="pub-img" src="/img/pub-page2.png" /></li>
-    <li><img class="pub-img" src="/img/pub-page3.png" /></li>
+    <li><img class="pub-img" src="/img/test.jpg" /></li>
+    
 </ul>`;
 }
 
