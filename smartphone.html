@@ -11,20 +11,43 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iTi-informatique - Smartphone</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
     <link rel="stylesheet" type="text/css" href="/css/main-menu.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
   </head>
   <body>
     <header class="main-header">
-      <nav class="main-menu" />
+      <div class="main-logo">iti-informatique</div>
+      <div class="main-devise">Réparation informatique, Tablettes et Smartphones</div>
+      <nav class="main-menu">
+        <ul>
+          <li class="menu-informatique link">
+            Informatique
+            <ul class="sub-menu-informatique" style="display: none">
+              <li><a href="/informatique/prestation.html">Nos prestations</a></li>
+              <li><a href="/informatique/montage.html">Montage sur mesure</a></li>
+              <li><a href="/informatique/reseau.html">Réseaux d'entreprise</a></li>
+              <li><a href="/informatique/vente.html">Vente de Matériel</a></li>
+            </ul>
+          </li>
+          <li><span class="active-menu">Smartphone</span></li>
+          <li><a href="/affaire.html">Les bonnes Affaires!</a></li>
+          <li><a href="/qsn.html">Qui Sommes Nous</a></li>
+          <li><a href="/contact.html">Nous contacter</a></li>
+        </ul>
+      </nav>
     </header>
     <main class="main-layout">
       <aside class="left-menu"></aside>
-      <section class="main-content">Contenue de la page SMARTPHONE</section>
+      <section class="main-content">
+      Nous pouvons réparer vos téléphones et tablettes. En particulier : <br><br>
+      * Le remplacement des écrans pour toute les marques avec un stock régulier sur les IPhones <br>
+      * Le remplacmeent des connecteurs de charge lorsque la recharge ne se fait pas ou avec difficulté <br>
+      * Le remplacement des vitres tactiles pour vos tablettes <br>
+      * La mise en service de vos nouveaux appareils <br>
+
+      </section>
     </main>
-   
-    <script src="/js/main-menu.js"></script>
-    <script src="/js/left-menu.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>

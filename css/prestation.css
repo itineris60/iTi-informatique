@@ -29,6 +29,7 @@ ul.nos-prestations-list li:nth-child(odd) {
 
 .nos-prestations-title {
   margin-left: 5.5rem;
+  font-size: 1.6rem;
 }
 
 @media screen and (max-width: 919px) {
@@ -43,5 +44,5 @@ ul.nos-prestations-list li:nth-child(odd) {
 .nos-prestations-list .icon {
   font-size: 3rem;
   color: white;
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
