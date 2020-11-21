@@ -14,12 +14,29 @@
 
 <body>
   <header class="main-header">
-    <nav class="main-menu" />
+    <div class="main-logo">iti-informatique</div>
+    <div class="main-devise">Réparation informatique, Tablettes et Smartphones</div>
+    <nav class="main-menu">
+      <ul>
+        <li class="menu-informatique link active-menu">Informatique
+            <ul class="sub-menu-informatique" style="display: none;">
+                <li><a href="/informatique/prestation.html">Nos prestations</a></li>
+                <li><a href="/informatique/montage.html">Montage sur mesure</a></li>
+                <li><a href="/informatique/reseau.html">Réseaux d'entreprise</a></li>
+                <li><a href="/informatique/vente.html">Vente de Matériel</a></li>
+            </ul>
+        </li>
+        <li><a href="/informatique/smartphone.html">Smartphone</a></li>
+        <li><a href="/affaire.html">Les bonnes Affaires!</a></li>
+        <li><a  href="/qsn.html">Qui Sommes Nous</a></li>
+        <li><span class="active-menu">Nous contacter</span></li>
+      </ul>
+    </nav>
   </header>
   <main class="main-layout">
-    <aside class="left-menu"></aside>
-    <section class="main-content">
-      <h4 align="center"><b style="font-weight:900 ; color:red">Attention: En raison des mesures sanitaires liées au COVID-19, nous fermons nos portes à 18H00 tous les soirs</b></h4><br>
+  
+    <section class="main-content" style="margin-top:7rem">
+      <h4 align="center"><b style="font-weight:900 ; font-size:1.2rem; color:red">Attention: En raison des mesures sanitaires liées au COVID-19, nous fermons nos portes à 18H00 tous les soirs</b></h4><br>
       <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
         <tbody>
           <tr>
@@ -86,7 +103,6 @@
     </section>
   </main>
 
-  <script src="/js/main-menu.js"></script>
     <script src="/js/left-menu.js"></script>
     <script src="/js/main.js"></script>
 </body>

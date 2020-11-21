@@ -29,7 +29,7 @@ function handlehidemenu(event) {
    // console.log(event.target);
     submenu.style.display = "none";
 }
-
+/*
 //on récupère l'élément mainMenu du DOM
 const mainMenu = document.querySelector('.main-menu');
 //on récvupère l'élément parent du mainMenu
@@ -41,4 +41,4 @@ link.href = "/index.html";
 link.innerHTML = '<img src="/img/logo3.jpg" height="100"/>'
 
 //inject cette image dans le DOM, juste avant le mainMenu
-parent.insertBefore(link, mainMenu);
+parent.insertBefore(link, mainMenu);*/

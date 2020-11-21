@@ -16,11 +16,27 @@
 
 <body>
     <header class="main-header">
-
-        <nav class="main-menu" />
-    </header>
+        <div class="main-logo">iti-informatique</div>
+        <div class="main-devise">Réparation informatique, Tablettes et Smartphones</div>
+        <nav class="main-menu">
+          <ul>
+            <li class="menu-informatique link active-menu">Informatique
+                <ul class="sub-menu-informatique" style="display: none;">
+                    <li><a href="/informatique/prestation.html">Nos prestations</a></li>
+                    <li><a href="/informatique/montage.html">Montage sur mesure</a></li>
+                    <li><a href="/informatique/reseau.html">Réseaux d'entreprise</a></li>
+                    <li><a href="/informatique/vente.html">Vente de Matériel</a></li>
+                </ul>
+            </li>
+            <li><a href="/informatique/smartphone.html">Smartphone</a></li>
+            <li><a href="/affaire.html">Les bonnes Affaires!</a></li>
+            <li><a  href="/qsn.html">Qui Sommes Nous</a></li>
+            <li><span class="active-menu">Nous contacter</span></li>
+          </ul>
+        </nav>
+      </header>
     <main class="main-layout">
-        <aside class="left-menu"></aside>
+    
         <section class="main-content">
             <cite class="nos-prestations-notre-devise">Notre coeur de métier : l'informatique ! </cite>
             <h1 class="nos-prestations-title">Nos prestations : </h1>
@@ -38,9 +54,12 @@
         </section>
     </main>
     <footer>C G V et Partenaire</footer>
-    <script src="/js/main-menu.js"></script>
+    <script src="/js/kute/kute.min.js"></script>
+
     <script src="/js/left-menu.js"></script>
     <script src="/js/main.js"></script>
+  
+   
 </body>
 
 </html>
