@@ -1,5 +1,5 @@
 #contact-telephone {
-  display: flex;
+ 
   justify-content: center;
   font-size: 1.2rem;
   margin-top: 0rem;
@@ -7,9 +7,12 @@
   margin-bottom: 5rem;
 }
 #telephone-magasin {
-  margin-right: 20%;
+    display: flex;
+    justify-content: center;
 }
 #telephone-pro {
+    display: flex;
+    justify-content: center;
 }
 
 .telephone {
