@@ -9,14 +9,17 @@
 #telephone-magasin {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 #telephone-pro {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .telephone {
   font-weight: 600;
+  margin-left:1rem;
 }
 
 #contact-telephone label {
