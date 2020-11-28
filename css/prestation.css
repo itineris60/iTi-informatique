@@ -1,50 +1,48 @@
 ul.nos-prestations-list li {
-    padding: 30px;
-    margin: 20px;
-    list-style: none;
-    border-radius: 20px;
-    background-color:rgb(68 165 82 / 0.3);
-    font-weight: 700;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    display: flex;
-    align-items: center;
-    box-shadow: 0px 3px 3px 0px #cfcfcf;
+  padding: 30px;
+  margin: 20px;
+  list-style: none;
+  border-radius: 20px;
+  background-color: rgb(68 165 82 / 0.3);
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 3px 3px 0px #cfcfcf;
 }
 
 ul.nos-prestations-list li:nth-child(odd) {
-   
-    background-color: rgb(12 170 247 / 0.3);
-   
-   
+  background-color: rgb(12 170 247 / 0.3);
 }
 
 .nos-prestations-notre-devise {
-    display: block;
-    text-align: center;
-    font-style: italic;
+  display: block;
+  text-align: center;
+  font-style: italic;
 
-    font-size: 1.3rem;
-    line-height: 2rem;
-    margin:2rem;
-    color:#0caaf7;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 2rem;
+  color: #0caaf7;
 }
 
 .nos-prestations-title {
-    margin-left: 5.5rem;
+  margin-left: 5.5rem;
+  font-size: 1.6rem;
 }
 
 @media screen and (max-width: 919px) {
-    .nos-prestations-title {
-        margin-left: 1rem;
-    }
-    ul.nos-prestations-list {
-        padding-left: 0;
-    }
+  .nos-prestations-title {
+    margin-left: 1rem;
   }
+  ul.nos-prestations-list {
+    padding-left: 0;
+  }
+}
 
-  .nos-prestations-list .icon {
-      font-size: 3rem;
-      color: white;
-      margin-right: 1rem;
-  }
+.nos-prestations-list .icon {
+  font-size: 3rem;
+  color: white;
+  margin-right: 3rem;
+}

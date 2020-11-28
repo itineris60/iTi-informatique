@@ -1,0 +1,91 @@
+.main-layout {
+  margin-left: 0;
+  margin-right: 0;
+  flex-direction: column;
+}
+
+hr.content-divider {
+  max-width: 75px;
+  height: 5px;
+}
+
+.subtitle {
+  color: white;
+  font-size: 2.2rem;
+  text-shadow: 1px 1px 1px #000, 3px 3px 5px rgb(0, 0, 3);
+}
+@media screen and (min-width: 769px), print {
+  .hero.is-large .hero-body {
+    padding: 8rem 1.5rem;
+  }
+}
+
+#parallax-0 {
+    background:linear-gradient(rgba(39, 181, 185, 0.521), rgba(30, 207, 148, 0.521)), url(/img/tablet_and_smartphone.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top:60px;
+  }
+  
+  #parallax-0 hr {
+    background: coral;
+  }
+
+#parallax-1 {
+  background:url(/img/iphone.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid coral;
+}
+
+#parallax-1 hr {
+  background: coral;
+}
+
+#parallax-2 {
+  background: url(/img/smartphone1.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid yellow;
+}
+
+#parallax-2 hr {
+  background: yellow;
+}
+
+#parallax-3 {
+  background:  url(/img/smartphone_casse.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 10px solid hotpink;
+}
+
+#parallax-3 hr {
+  background: hotpink;
+}
+
+
+#parallax-4 {
+    background:  url(/img/contact1.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid hotpink;
+  }
+  
+  #parallax-4 hr {
+    background: hotpink;
+  }
+  
+.label {
+  color: white;
+}

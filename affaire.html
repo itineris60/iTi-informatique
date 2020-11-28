@@ -11,19 +11,60 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iTi-informatique - Bonnes Affaires</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
     <link rel="stylesheet" type="text/css" href="/css/main-menu.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
   </head>
   <body>
     <header class="main-header">
-      <nav class="main-menu" />
+      <div class="main-logo">iTi-informatique</div>
+      <div class="main-devise">Réparation informatique, Tablettes et Smartphones</div>
+
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarMain" class="navbar-menu">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> Informatique </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/informatique/prestation.html">Nos prestations</a>
+              <a class="navbar-item" href="/informatique/montage.html">Montage sur mesure</a>
+              <a class="navbar-item" href="/informatique/reseau.html">Réseaux d'entreprise</a>
+              <a class="navbar-item" href="/informatique/vente.html">Vente de Matériel</a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="/smartphone.html">Smartphone</a>
+          <a class="navbar-item" href="/affaire.html">Les bonnes Affaires!</a>
+          <a class="navbar-item is-active" href="/qsn.html">Qui Sommes Nous</a>
+          <a class="navbar-item" href="/contact.html">Nous contacter</a>
+        </div>
+      </nav>
     </header>
     <main class="main-layout">
-      <aside class="left-menu"></aside>
-      <section class="main-content">Contenue de la page AFFAIRE</section>
+      <section class="main-content">
+        <div style="text-align: center">
+       
+          <br><br><br><br><br><br>
+          <img src="img/workinprogress.jpg" />
+          </div>
+      </section>
     </main>
     <script src="/js/main-menu.js"></script>
-    <script src="/js/left-menu.js"></script>
     <script src="/js/main.js"></script>
   </body>
 </html>

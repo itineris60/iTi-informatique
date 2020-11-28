@@ -29,7 +29,7 @@ function buildMenu() {
             <li>${buildMenuItem("/informatique/vente.html", "Vente de Matériel")}</li>
         </ul>
     </li>
-    <li>${buildMenuItem("/informatique/smartphone.html", "Smartphone")}</li>
+    <li>${buildMenuItem("/smartphone.html", "Smartphone")}</li>
     <li>${buildMenuItem("/affaire.html", "Les bonnes Affaires!")}</li>
     <li>${buildMenuItem("/qsn.html", "Qui Sommes Nous")}</li>
     <li>${buildMenuItem("/contact.html", "Nous contacter")}</li>
