@@ -1,25 +1,31 @@
 #contact-telephone {
- 
   justify-content: center;
   font-size: 1.2rem;
   margin-top: 0rem;
-  
+
   margin-bottom: 5rem;
+
+  animation: flyintoright 0.4s backwards;
+  background: #fffc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
 }
 #telephone-magasin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #telephone-pro {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .telephone {
   font-weight: 600;
-  margin-left:1rem;
+  margin-left: 1rem;
 }
 
 #contact-telephone label {
@@ -31,6 +37,29 @@
   width: 100%;
   line-height: 2rem;
 }
+
+.adresse-horaires, .message-covid {
+  animation: flyintoright 0.4s backwards;
+  background: #fffc;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+
 /*
 "><label>Contact Pro : </label> <span class="telephone">06 76 38 24 62</span></div>
 </div>*/
+
+body {
+  background: linear-gradient(rgba(0, 247, 255, 0.521), rgba(255, 255, 255, 0.521)), url(/img/back.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.main-content {
+  text-align: center;
+}
