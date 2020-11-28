@@ -11,45 +11,66 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>iTi-informatique - Smartphone</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
     <link rel="stylesheet" type="text/css" href="/css/main-menu.css" />
     <link rel="stylesheet" type="text/css" href="/css/main.css" />
   </head>
   <body>
     <header class="main-header">
-      <div class="main-logo">iti-informatique</div>
+      <div class="main-logo">iTi-informatique</div>
       <div class="main-devise">Réparation informatique, Tablettes et Smartphones</div>
-      <nav class="main-menu">
-        <ul>
-          <li class="menu-informatique link">
-            Informatique
-            <ul class="sub-menu-informatique" style="display: none">
-              <li><a href="/informatique/prestation.html">Nos prestations</a></li>
-              <li><a href="/informatique/montage.html">Montage sur mesure</a></li>
-              <li><a href="/informatique/reseau.html">Réseaux d'entreprise</a></li>
-              <li><a href="/informatique/vente.html">Vente de Matériel</a></li>
-            </ul>
-          </li>
-          <li><a href="/smartphone.html">Smartphone</a></li>
-          <li><a href="/affaire.html">Les bonnes Affaires!</a></li>
-          <li><span class="active-menu">Qui Sommes Nous</span></li>
-          <li><a href="/contact.html">Nous contacter</a></li>
-        </ul>
+
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a
+            role="button"
+            class="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarMain" class="navbar-menu">
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link"> Informatique </a>
+
+            <div class="navbar-dropdown">
+              <a class="navbar-item" href="/informatique/prestation.html">Nos prestations</a>
+              <a class="navbar-item" href="/informatique/montage.html">Montage sur mesure</a>
+              <a class="navbar-item" href="/informatique/reseau.html">Réseaux d'entreprise</a>
+              <a class="navbar-item" href="/informatique/vente.html">Vente de Matériel</a>
+            </div>
+          </div>
+
+          <a class="navbar-item" href="/smartphone.html">Smartphone</a>
+          <a class="navbar-item" href="/affaire.html">Les bonnes Affaires!</a>
+          <a class="navbar-item is-active" href="/qsn.html">Qui Sommes Nous</a>
+          <a class="navbar-item" href="/contact.html">Nous contacter</a>
+        </div>
       </nav>
     </header>
     <main class="main-layout">
-      <section class="main-content qui-sommes-nous" style="position: relative; margin-left:10%;margin-right:10%;margin-bottom:5rem">
+      <section
+        class="main-content qui-sommes-nous"
+        style="position: relative; margin-left: 10%; margin-right: 10%; margin-bottom: 5rem"
+      >
         <div style="line-height: 2rem; font-size: 1rem">
           Issus d'un monde 'Geek' et de developpeurs informatiques, nous sommes tous nés avec cette passion au point
           d'en faire notre métier.<br /><br />
           Au tout début nous passions des nuits entières dans un garage ou dans le salon des parents, pour résoudre des
-          pannes HardWares et Softwares ou pour y découvrir les derniers jeux pixelisés. Nos premières victoires étaient celles de jeunes apprentis émerveillés. <br />
+          pannes HardWares et Softwares ou pour y découvrir les derniers jeux pixelisés. Nos premières victoires étaient
+          celles de jeunes apprentis émerveillés. <br />
           Avec le temps, les apprentis d'hier dont devenus professionnels. Notre passion est restée intacte.<br /><br />
 
           L'enseigne iTi-informatique à commencé le 1er mai 2013, en Auto-entrepreneur et ce durant 2 ans ('le boss' à
-          eu l'audace d'ouvrir le jour de la fêtes du travail ^.^). 
-          Déjà ambitieux sur plusieurs projets, afin de developper l'activité, nous avons ouvert le magasin le 1er
-          octobre 2015.<br /><br />
+          eu l'audace d'ouvrir le jour de la fêtes du travail ^.^). Déjà ambitieux sur plusieurs projets, afin de
+          developper l'activité, nous avons ouvert le magasin le 1er octobre 2015.<br /><br />
           Nous avons commencé avec les moyens du bord et les vieux outils trouvés ici ou là. A présent, nous sommes bien
           équipés, expérimentés et prêts à relever tous les défis.<br /><br />
 
@@ -89,7 +110,6 @@
       </section>
     </main>
     <script src="/js/kute/kute.min.js"></script>
-    <script src="/js/left-menu.js"></script>
     <script src="/js/main.js"></script>
     <script src="/js/qsn.js"></script>
   </body>

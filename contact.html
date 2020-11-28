@@ -9,36 +9,61 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>iTi-informatique - Contact</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" />
   <link rel="stylesheet" type="text/css" href="/css/main-menu.css" />
   <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="/css/contact.css" />
 </head>
 
 <body>
   <header class="main-header">
-    <div class="main-logo">iti-informatique</div>
+    <div class="main-logo">iTi-informatique</div>
     <div class="main-devise">Réparation informatique, Tablettes et Smartphones</div>
-    <nav class="main-menu">
-      <ul>
-        <li class="menu-informatique link">Informatique
-            <ul class="sub-menu-informatique" style="display: none;">
-                <li><a href="/informatique/prestation.html">Nos prestations</a></li>
-                <li><a href="/informatique/montage.html">Montage sur mesure</a></li>
-                <li><a href="/informatique/reseau.html">Réseaux d'entreprise</a></li>
-                <li><a href="/informatique/vente.html">Vente de Matériel</a></li>
-            </ul>
-        </li>
-        <li><a href="/smartphone.html">Smartphone</a></li>
-        <li><a href="/affaire.html">Les bonnes Affaires!</a></li>
-        <li><a  href="/qsn.html">Qui Sommes Nous</a></li>
-        <li><span class="active-menu">Nous contacter</span></li>
-      </ul>
+
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a
+          role="button"
+          class="navbar-burger burger"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarMain" class="navbar-menu">
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link"> Informatique </a>
+
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="/informatique/prestation.html">Nos prestations</a>
+            <a class="navbar-item" href="/informatique/montage.html">Montage sur mesure</a>
+            <a class="navbar-item" href="/informatique/reseau.html">Réseaux d'entreprise</a>
+            <a class="navbar-item" href="/informatique/vente.html">Vente de Matériel</a>
+          </div>
+        </div>
+
+        <a class="navbar-item" href="/smartphone.html">Smartphone</a>
+        <a class="navbar-item" href="/affaire.html">Les bonnes Affaires!</a>
+        <a class="navbar-item " href="/qsn.html">Qui Sommes Nous</a>
+        <a class="navbar-item is-active" href="/contact.html">Nous contacter</a>
+      </div>
     </nav>
   </header>
   <main class="main-layout">
   
     <section class="main-content">
+      <div id="contact-telephone">
+        <div id="telephone-magasin"><i class="icon fas fa-phone"></i><label>Magasin : </label> <span class="telephone"> 09 52 69 59 45</span></div>
+        <div id="telephone-pro"><i class="icon fas fa-phone"></i><label>Contact Pro : </label> <span class="telephone">06 76 38 24 62</span></div>
+      </div>
+     
       <h4 align="center"><b style="font-weight:900 ; font-size:1.2rem; color:red">Attention: En raison des mesures sanitaires liées au COVID-19, nous fermons nos portes à 18H00 tous les soirs</b></h4><br>
-      <table style="text-align: left; width: 100%;" border="0" cellpadding="2" cellspacing="2">
+      <table id="adresse_horaires" border="0" cellpadding="2" cellspacing="2">
         <tbody>
           <tr>
             <td style="vertical-align: top; text-align: center;">Adresse<br>

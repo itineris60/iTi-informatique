@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap");
-
+@font-face {
+  font-family: 'Dumbledor';
+  src: url('/dum33d.ttf') format('truetype');
+}
 body {
   font-family: "Comfortaa", "Helvetica Neue", sans-serif;
   margin: 0;
@@ -25,7 +28,7 @@ a,
   background-color: white;
   width: 100%;
   z-index: 10;
-  background: linear-gradient(rgba(40, 46, 102, 0.521), rgba(57, 66, 146, 0.521)), url(/img/back-main-header.jpg);
+  background: linear-gradient(rgba(9, 67, 121, 0.521), rgba(4, 11, 88, 0.521)), url(/img/cooling1.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +39,11 @@ a,
 }
 .main-layout {
   display: flex;
-  padding-top: 240px;
+  padding-top: 300px;
+  margin-left:10%;
+  margin-right:10%;
+  flex-direction: column;
+
 }
 .left-menu {
   margin-top: 0rem;
@@ -72,13 +79,42 @@ a,
 
 .main-logo {
   margin-top: 4rem;
-  font-size: 4rem;
+  font-size: 5rem;
   color: white;
   margin-bottom: 1.4rem;
-  font-weight: 600;
+  
+  font-family: 'Dumbledor';
 }
 .main-devise {
   font-size: 1.8rem;
   margin-bottom: 4rem;
   color: white;
+  
+}
+
+@media screen and (max-width: 919px) {
+
+  .main-header {
+   max-height: 10rem;
+  }
+
+  .main-logo {
+    margin-top: 1rem;
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 0.4rem;
+    font-family: 'Dumbledor';
+  }
+  .main-devise {
+    font-size: 0.8rem;
+    margin-bottom: 1.4rem;
+    color: white;
+   margin: 0;
+
+  }
+
+  .main-layout {
+    display: flex;
+    padding-top: 50px;
+  }
 }

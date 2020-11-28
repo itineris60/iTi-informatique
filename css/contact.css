@@ -1,0 +1,30 @@
+#contact-telephone {
+  display: flex;
+  justify-content: center;
+  font-size: 1.2rem;
+  margin-top: 0rem;
+  
+  margin-bottom: 5rem;
+}
+#telephone-magasin {
+  margin-right: 20%;
+}
+#telephone-pro {
+}
+
+.telephone {
+  font-weight: 600;
+}
+
+#contact-telephone label {
+  margin-left: 1rem;
+}
+
+#adresse_horaires {
+  text-align: left;
+  width: 100%;
+  line-height: 2rem;
+}
+/*
+"><label>Contact Pro : </label> <span class="telephone">06 76 38 24 62</span></div>
+</div>*/

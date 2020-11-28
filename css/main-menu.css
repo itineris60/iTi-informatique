@@ -1,5 +1,8 @@
-.main-menu {
+.navbar {
   width: 100%;
+}
+#navbarMain {
+  justify-content: center;
 }
 .main-menu ul {
   display: flex;
@@ -63,4 +66,7 @@
 
 ul.sub-menu-informatique > li {
   justify-content: flex-start;
+}
+@media screen and (max-width: 919px) {
+ 
 }
