@@ -10,4 +10,12 @@ body {
       padding-bottom:8rem;
   }
   
+@media screen and (max-width: 919px) {
+
+  .main-content {
+    padding:0;
+    padding-top:8rem;
+    padding-bottom:8rem;
+}
+}
   
