@@ -42,6 +42,9 @@ ul.nos-prestations-list li:nth-child(odd) {
   ul.nos-prestations-list {
     padding-left: 0;
   }
+  ul.nos-prestations-list li {
+    padding: 10px;
+    margin: 10px;}
 }
 
 .nos-prestations-list .icon {
