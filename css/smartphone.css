@@ -1,7 +1,16 @@
+body {
+  font-family: "Comfortaa", "Helvetica Neue", sans-serif;
+  margin: 0;
+  background: #eff3f4;
+  position: relative;
+  background: white;
+
+}
 .main-layout {
   margin-left: 0;
   margin-right: 0;
   flex-direction: column;
+  padding-top: 40px;
 }
 
 hr.content-divider {
@@ -21,7 +30,7 @@ hr.content-divider {
 }
 
 #parallax-0 {
-    background:linear-gradient(rgba(39, 181, 185, 0.521), rgba(30, 207, 148, 0.521)), url(/img/tablet_and_smartphone.jpeg);
+    background: url(/img/caspar-camille-rubin-89xuP-XmyrA-unsplash.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

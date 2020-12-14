@@ -11,6 +11,8 @@
   border-radius: 4px;
   margin: 10px;
   transition: all 0.2s ease-in-out;
+
+  background-color: #dcdcdc94;
 }
 #telephone-magasin {
   display: flex;
@@ -36,6 +38,8 @@
   text-align: left;
   width: 100%;
   line-height: 2rem;
+  
+  
 }
 
 .adresse-horaires, .message-covid {
@@ -45,6 +49,7 @@
   border-radius: 4px;
   margin: 10px;
   transition: all 0.2s ease-in-out;
+  background-color: #dcdcdc94;
 }
 
 
@@ -53,7 +58,7 @@
 </div>*/
 
 body {
-  background: linear-gradient(rgba(0, 247, 255, 0.521), rgba(255, 255, 255, 0.521)), url(/img/back.jpeg);
+  background: url(/img/back.jpeg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;

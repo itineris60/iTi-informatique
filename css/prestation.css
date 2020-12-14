@@ -24,7 +24,10 @@ ul.nos-prestations-list li:nth-child(odd) {
   font-size: 1.3rem;
   line-height: 2rem;
   margin: 2rem;
+  margin-top:0rem;
   color: #0caaf7;
+  color: #0333a4;
+  font-weight: 700;
 }
 
 .nos-prestations-title {
