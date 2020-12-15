@@ -1,18 +1,24 @@
 body {
   font-family: "Comfortaa", "Helvetica Neue", sans-serif;
   margin: 0;
-  background: #eff3f4;
   position: relative;
-  background: white;
+  background: #ededed;
 
 }
 .main-layout {
   margin-left: 0;
   margin-right: 0;
   flex-direction: column;
-  padding-top: 40px;
+ 
 }
-
+.brand-title {
+  background: #fff;
+}
+@media screen and (min-width: 918px) {
+  .navbar {
+    background: #fff;
+  }
+}
 hr.content-divider {
   max-width: 75px;
   height: 5px;

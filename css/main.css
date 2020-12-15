@@ -13,7 +13,6 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 a,
@@ -32,10 +31,10 @@ a,
   flex-direction: column;
   align-items: center;
   position: fixed;
-  color:black;
+  color: black;
   width: 100%;
   z-index: 10;
- 
+  
 }
 .logo-img {
   width: 667px;
@@ -46,6 +45,7 @@ a,
   margin-left: 10%;
   margin-right: 10%;
   flex-direction: column;
+  padding-top: 10rem;
 }
 .main-content {
   flex-grow: 1;
@@ -56,42 +56,39 @@ a,
   background: linear-gradient(rgb(255 255 255 / 95%), rgb(243 243 243 / 88%));
   box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
 
-    border-radius: 1.5rem;
+  border-radius: 1.5rem;
   /*margin-left: 18%;*/
   /*  padding-left: 25%; */
-  padding:2rem;
+  padding: 2rem;
 }
 #iframeee {
   text-align: center;
 }
 
-.main-logo {
-  margin-top: 1rem;
-  font-size: 4rem;
-  color: #333;
-  margin-bottom: 1rem;
-
-  font-family: "Dumbledor";
-}
-.main-devise {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
-  color: #444;
-}
-
 .brand-title {
   display: flex;
   flex-direction: column;
-  padding: 1.5rem;
   justify-content: center;
+  background: #fffffff2;
+  width: 100vw;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
 }
 .main-logo {
+  color: #333;
+  font-family: "Dumbledor";
+  font-size: 3rem;
   text-align: center;
 }
 .main-devise {
+  color: #7a7a7a;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
+  font-style: italic;
+  margin-top: -0.8rem;
+  letter-spacing: 3px;
+  margin-bottom: 0.5rem;
 }
+
 @media screen and (max-width: 919px) {
   .main-header {
     max-height: 10rem;
@@ -99,12 +96,9 @@ a,
 
   .brand-title {
     padding: 0rem;
-    padding-bottom: 1.5rem;
   }
   .main-logo {
-    margin-top: 1rem;
-    font-size: 3rem;
-    margin-bottom: 0.4rem;
+    font-size: 1.6rem;
     font-family: "Dumbledor";
   }
 
@@ -115,22 +109,22 @@ a,
     margin-top: 2rem;
     line-height: 1rem;
     background: linear-gradient(rgb(255 255 255 / 85%), rgb(223 223 223 / 73%));
-      border-radius: 10px;
+    border-radius: 10px;
     /*margin-left: 18%;*/
     /*  padding-left: 25%; */
-    padding:0.7rem;
-    margin-left:0.3rem;
+    padding: 0.7rem;
+    margin-left: 0.3rem;
     margin-right: 0.3rem;
+   
   }
   .main-devise {
-    font-size: 0.8rem;
-    margin-bottom: 1.4rem;
+    font-size: 0.7rem;
     margin: 0;
   }
 
   .main-layout {
     display: flex;
-    padding-top: 50px;
+    padding-top: 3.5rem;
   }
 }
 @media screen and (max-width: 700px) {

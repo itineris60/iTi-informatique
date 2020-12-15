@@ -38,11 +38,10 @@
   text-align: left;
   width: 100%;
   line-height: 2rem;
-  
-  
 }
 
-.adresse-horaires, .message-covid {
+.adresse-horaires,
+.message-covid {
   animation: flyintoright 0.4s backwards;
   background: #fffc;
   box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
@@ -51,7 +50,6 @@
   transition: all 0.2s ease-in-out;
   background-color: #dcdcdc94;
 }
-
 
 /*
 "><label>Contact Pro : </label> <span class="telephone">06 76 38 24 62</span></div>
@@ -67,4 +65,12 @@ body {
 
 .main-content {
   text-align: center;
+}
+.brand-title {
+  background: #fff;
+}
+@media screen and (min-width: 918px) {
+  .navbar {
+    background: #fff;
+  }
 }

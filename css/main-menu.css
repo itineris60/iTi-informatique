@@ -1,6 +1,17 @@
 .navbar {
   width: 100%;
+  background: #ffffffe0;
 }
 #navbarMain {
   justify-content: center;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #dfdfdf;
+}
+@media screen and (max-width: 919px) {
+  .navbar {
+    position: absolute;
+    top: 0;
+    background:transparent;
+  }
 }
