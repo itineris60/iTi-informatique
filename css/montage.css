@@ -19,3 +19,23 @@ body {
 }
 }
   
+h2 {
+  font-size: 1.2rem;
+  margin: 3rem;
+  margin-top: 4rem;
+  text-align: center;
+}
+
+.img-container {
+  text-align: center;
+  display: blocks;
+}
+.img-container img {
+ 
+}
+
+p {
+  margin-top:2rem;
+  margin-bottom: 2rem;
+
+}
