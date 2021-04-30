@@ -49,9 +49,7 @@
   margin: 10px;
   transition: all 0.2s ease-in-out;
   background-color: #dcdcdc94;
-  display: flex;
-align-items: center;
-justify-content: center;
+ 
 padding: 1rem;
 }
 
